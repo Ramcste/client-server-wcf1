@@ -11,6 +11,7 @@ namespace RameshService3
     [ServiceContract]
     public interface IService2
     {
+        // contracted created by the user
         [OperationContract]
         int Sum(int x, int y);
 
